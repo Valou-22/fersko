@@ -12,11 +12,11 @@ function App() {
   return (
     <div className="h-screen flex w-full justify-center items-center flex-col gap-10">
       <h1 className="text-white font-bold text-4xl">Série pour les bg</h1>
-      <form>
+      <form className="flex gap-5">
         <select
           onChange={(e) => {
             setIndexSeas(e.target.selectedIndex);
-            setIndexEp(0); // Réinitialiser l'épisode au changement de saison
+            setIndexEp(0);
           }}
         >
           {seasons.map((season, index) => (
