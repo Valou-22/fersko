@@ -1,16 +1,28 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { emilyInParis } from "./utils/series";
 
 function App() {
-  const [indexEp, setIndexEp] = useState(0);
-  const [indexSeas, setIndexSeas] = useState(0);
+  const [indexEp, setIndexEp] = useState(() => {
+    const savedEpisode = localStorage.getItem("episode");
+    return savedEpisode !== null ? parseInt(savedEpisode) : 0;
+  });
 
-  setIndexEp(localStorage.getItem("episode"));
-  setIndexSeas(localStorage.getItem("saison"));
+  const [indexSeas, setIndexSeas] = useState(() => {
+    const savedSeason = localStorage.getItem("saison");
+    return savedSeason !== null ? parseInt(savedSeason) : 0;
+  });
+
+  useEffect(() => {
+    localStorage.setItem("episode", indexEp);
+  }, [indexEp]);
+
+  useEffect(() => {
+    localStorage.setItem("saison", indexSeas);
+  }, [indexSeas]);
 
   const seasons = emilyInParis.seasons;
 
-  console.log(`saison : ${indexSeas + 1} episode : ${indexEp + 1}`);
+  console.log(`Saison : ${indexSeas + 1}, Épisode : ${indexEp + 1}`);
 
   return (
     <div className="h-screen flex w-full justify-center items-center flex-col gap-10">
@@ -19,9 +31,7 @@ function App() {
         <select
           onChange={(e) => {
             setIndexSeas(e.target.selectedIndex);
-            localStorage.setItem("saison", indexSeas);
-            localStorage.setItem("episode", 0);
-            setIndexEp(0);
+            setIndexEp(0); // Réinitialiser l'épisode à 0 lorsqu'une nouvelle saison est sélectionnée
           }}
           value={indexSeas}
         >
@@ -34,15 +44,12 @@ function App() {
         <select
           onChange={(e) => {
             setIndexEp(e.target.selectedIndex);
-            localStorage.setItem("episode", indexEp);
           }}
           value={indexEp}
-          name=""
-          id=""
         >
           {seasons[indexSeas].episodes.map((episode, index) => (
             <option key={index} value={index}>
-              Episode {index + 1}
+              Épisode {index + 1}
             </option>
           ))}
         </select>
