@@ -35,6 +35,22 @@ export const emilyInParis = {
         "https://g8l2qa51m5x1f.pradoi.com/v/01/04233/xqnf6wfb0rb1_x/Emily.In.Paris.S03E01.FRENCH.1080p.NF.WEB.DL.DDP5.1.x264.FRATERNITY.Wawacity.bond_x.mp4?t=cYjHJ_-OGFnLcv8A4iRGSb9WmBkIka1HrXzY8ZAEqQo&s=1725050633&e=129600&f=21165707&sp=1000&i=0.0",
         "https://g8l2qa51m5x1f.pradoi.com/v/01/04233/vmzogh0byskh_x/Emily.In.Paris.S03E02.FRENCH.1080p.NF.WEB.DL.DDP5.1.x264.FRATERNITY.Wawacity.bond_x.mp4?t=1FCDg3BXtfjBWr-l_w9lE8mxiEhm6qcyHePud-HuypI&s=1725050691&e=129600&f=21165698&sp=1000&i=0.0",
         "https://fvynu5an54z0eb.pradoi.com/v/01/04233/vguliwumrsuw_x/Emily.In.Paris.S03E03.FRENCH.1080p.NF.WEB.DL.DDP5.1.x264.FRATERNITY.Wawacity.bond_x.mp4?t=Z5b1D4S22PpTkqufZuPBBVTICnOdkexfr5aMO4gX9Kk&s=1725050728&e=129600&f=21165732&sp=1000&i=0.0",
+        "https://44ltbh0sz473d.pradoi.com/v/01/04233/an03xgb6j5ih_x/Emily.In.Paris.S03E04.FRENCH.1080p.NF.WEB.DL.DDP5.1.x264.FRATERNITY.Wawacity.bond_x.mp4?t=QbpugVELpMvVUVuL6bLJZkgcZQfsu-Xp1DoaYeAsCp4&s=1725137848&e=129600&f=21165737&sp=1000&i=0.0",
+        "https://g8l2qa51m5x1f.pradoi.com/v/01/04233/nems6m9zax6c_x/Emily.In.Paris.S03E05.FRENCH.1080p.NF.WEB.DL.DDP5.1.x264.FRATERNITY.Wawacity.bond_x.mp4?t=lFfCJyHAv2kk2b8vDYMpnYHFxEM3D3gV7Krvx6GZT-A&s=1725137916&e=129600&f=21165780&sp=1000&i=0.0",
+        "https://fvynu5an54z0eb.pradoi.com/v/01/04233/mg5mgbqb4elg_x/Emily.In.Paris.S03E06.FRENCH.1080p.NF.WEB.DL.DDP5.1.x264.FRATERNITY.Wawacity.bond_x.mp4?t=n3ttq4xKnWkvdlp1Xju38H5fdnEbs5Zh6DGDNhoOvbo&s=1725137974&e=129600&f=21165787&sp=1000&i=0.0",
+        "https://7npihg0ee2yuu.pradoi.com/v/01/04233/s3ifr50v4gvo_x/Emily.In.Paris.S03E07.FRENCH.1080p.NF.WEB.DL.DDP5.1.x264.FRATERNITY.Wawacity.bond_x.mp4?t=jYXi-5PRwV_3sqJDmXI1_qIFPjPSmAaym3Bgw_EA-AM&s=1725138019&e=129600&f=21165770&sp=1000&i=0.0",
+        "https://fvynu5an54z0eb.pradoi.com/v/01/04233/ao69r53o6tj4_x/Emily.In.Paris.S03E08.FRENCH.1080p.NF.WEB.DL.DDP5.1.x264.FRATERNITY.Wawacity.bond_x.mp4?t=eVyfObZ8ZirSkerXITtq_jAib7Qbdt2KOGGMNawvzfQ&s=1725138103&e=129600&f=21165783&sp=1000&i=0.0",
+        "https://551lgwlbaa5pe.pradoi.com/v/01/04233/pyoj82nbr1he_x/Emily.In.Paris.S03E09.FRENCH.1080p.NF.WEB.DL.DDP5.1.x264.FRATERNITY.Wawacity.bond_x.mp4?t=89rz5KktaRmqHSw9ypF3QktLO1KMV_WS3AqtVmTEPp4&s=1725138484&e=129600&f=21165827&sp=1000&i=0.0",
+        "https://8ulqhwjgxdzbe.pradoi.com/v/01/04233/64t5y7dl7aqa_x/Emily.In.Paris.S03E10.FINAL.FRENCH.1080p.NF.WEB.DL.DDP5.1.x264.FRATERNITY.Wawacity.bond_x.mp4?t=l9_r_ov_Ul0Zsnr32kiF1XvPZywdIqm_W74_J4jBKfE&s=1725138529&e=129600&f=21165844&sp=1000&i=0.0",
+      ],
+    },
+    {
+      episodes: [
+        "https://x7n2pyc4635p2.pradoi.com/v/01/04681/07lwu33uhdq9_o/Emily.in.Paris.S04E01.vf_o.mp4?t=ug1bUNqKbeWUa-bLPQGyCLwhsAM7z9WMxzZl_b1PhJg&s=1725138681&e=129600&f=23409161&sp=600&i=0.0",
+        "https://x7n2pyc4635p2.pradoi.com/v/01/04681/jrmxykgxlwap_o/Emily.in.Paris.S04E02.vf_o.mp4?t=IFP0gyKCFRLFL1IGKmHgj0mBfcSPhtdyItDh8HZvGyA&s=1725138742&e=129600&f=23409165&sp=600&i=0.0",
+        "https://qj2nubtwa2a7v.pradoi.com/v/01/04681/1vm08h46nwnr_o/Emily.in.Paris.S04E03.vf_o.mp4?t=1YRT49YV2PiqN-QWmecmcDGH27L_9UVK-xhgH2beAOQ&s=1725138777&e=129600&f=23409158&sp=600&i=0.0",
+        "https://p1yiis79s8azw.pradoi.com/v/01/04681/e5nxt6ke662r_o/Emily.in.Paris.S04E04.vf_o.mp4?t=V9Iula-iW7R0ecVs4FxkfNleG-7pcnzs4oWEsPLmJqY&s=1725138830&e=129600&f=23409168&sp=600&i=0.0",
+        "https://qj2nubtwa2a7v.pradoi.com/v/01/04681/2kyn81n8ltp3_o/Emily.in.Paris.S04E05.vf_o.mp4?t=6H57luh7Jgn0N1pJlSQW4aEe3OhrlW9n50cxYILdMr4&s=1725138901&e=129600&f=23409175&sp=600&i=0.0",
       ],
     },
     // Ajouter plus de saisons ici...
