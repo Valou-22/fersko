@@ -5,6 +5,9 @@ function App() {
   const [indexEp, setIndexEp] = useState(0);
   const [indexSeas, setIndexSeas] = useState(0);
 
+  setIndexEp(localStorage.getItem("episode"));
+  setIndexSeas(localStorage.getItem("saison"));
+
   const seasons = emilyInParis.seasons;
 
   console.log(`saison : ${indexSeas + 1} episode : ${indexEp + 1}`);
@@ -16,8 +19,11 @@ function App() {
         <select
           onChange={(e) => {
             setIndexSeas(e.target.selectedIndex);
+            localStorage.setItem("saison", indexSeas);
+            localStorage.setItem("episode", 0);
             setIndexEp(0);
           }}
+          value={indexSeas}
         >
           {seasons.map((season, index) => (
             <option key={index} value={index}>
@@ -28,7 +34,9 @@ function App() {
         <select
           onChange={(e) => {
             setIndexEp(e.target.selectedIndex);
+            localStorage.setItem("episode", indexEp);
           }}
+          value={indexEp}
           name=""
           id=""
         >
