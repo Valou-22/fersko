@@ -26,7 +26,7 @@ export const emilyInParis = {
         "https://fvynu5an54z0eb.pradoi.com/v/01/04233/85vund9ey51f_x/Emily.in.Paris.S02E06.FRENCH.1080p.WEB.x264.Wawacity.work_x.mp4?t=rjwKhm11TyW8ZmaFKqOEr3HWFemkVfT9YyVygLlGTaQ&s=1725049621&e=129600&f=21165944&sp=1000&i=0.0",
         "https://ocuoxflke2uo1a.pradoi.com/v/01/04233/rrxgu8jdyjur_x/Emily.in.Paris.S02E07.FRENCH.1080p.WEB.x264.Wawacity.work_x.mp4?t=GevmpS7pbuNZ0IN0zaL5smfQO0OrJ_hiPVhTMPw9sBI&s=1725050447&e=129600&f=21166136&sp=1000&i=0.0",
         "https://ocuoxflke2uo1a.pradoi.com/v/01/04233/1wqziq1hmbx8_x/Emily.in.Paris.S02E08.FRENCH.1080p.WEB.x264.Wawacity.work_x.mp4?t=lBzLUENHHB2d4yMiwoOvKkY9pgOFuskNQBlwBL7NQo0&s=1725050481&e=129600&f=21165949&sp=1000&i=0.0",
-        "https://44ltbh0sz473d.pradoi.com/v/01/04233/7w040ek8sq12_x/Emily.in.Paris.S02E09.FRENCH.1080p.WEB.x264.Wawacity.work_x.mp4?t=FTHPsn-NgNTmbwmfoqUwrcCRxczLUVUIIZf09D67F4Q&s=1725050520&e=129600&f=21165966&sp=1000&i=0.0",
+        "https://luluvdo.com/e/1ritwni2ms6o",
         "https://8ulqhwjgxdzbe.pradoi.com/v/01/04233/kg66l1oir8ee_x/Emily.in.Paris.S02E10.FINAL.FRENCH.1080p.WEB.x264.Wawacity.work_x.mp4?t=gfoLxdcivqYOke6ds59f8k5tMzHPJ0swGTLQBwztjrQ&s=1725050588&e=129600&f=21166078&sp=1000&i=0.0",
       ],
     },
