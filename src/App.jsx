@@ -47,10 +47,10 @@ function App() {
           <p className="absolute">VF</p>
         </div>
       </div>
-      <div className="flex flex-wrap justify-start bg-slate-900 bg-opacity-70 rounded">
+      <div className="flex flex-wrap justify-start bg-[#1F1F1F] bg-opacity-70 rounded">
         <form className="flex gap-5">
           <select
-            className="scrollBarStyled bg-black outline outline-sky-700 outline-1 hover:opacity-80 rounded uppercase font-semibold text-sm sm:text-base text-white items-center cursor-pointer py-1 pl-3 pr-7 sm:pr-10 mx-1 m-2 transition-all duration-200"
+            className="scrollBarStyled bg-black outline  outline-1 hover:opacity-80 rounded uppercase font-semibold text-sm sm:text-base text-white items-center cursor-pointer py-1 pl-3 pr-7 sm:pr-10 mx-1 m-2 transition-all duration-200"
             onChange={(e) => {
               setIndexSeas(e.target.selectedIndex);
               setIndexEp(0); // Réinitialiser l'épisode à 0 lorsqu'une nouvelle saison est sélectionnée
@@ -64,7 +64,7 @@ function App() {
             ))}
           </select>
           <select
-            className="scrollBarStyled bg-black outline outline-sky-700 outline-1 hover:opacity-80 rounded uppercase font-semibold text-sm sm:text-base text-white items-center cursor-pointer py-1 pl-3 pr-7 sm:pr-10 mx-1 m-2 transition-all duration-200"
+            className="scrollBarStyled bg-black outline  outline-1 hover:opacity-80 rounded uppercase font-semibold text-sm sm:text-base text-white items-center cursor-pointer py-1 pl-3 pr-7 sm:pr-10 mx-1 m-2 transition-all duration-200"
             onChange={(e) => {
               setIndexEp(e.target.selectedIndex);
             }}
@@ -78,11 +78,11 @@ function App() {
           </select>
         </form>
       </div>
-      <div className="flex flex-wrap justify-center items-center mt-2 bg-slate-900 bg-opacity-70 rounded">
+      <div className="flex flex-wrap justify-center items-center mt-2 bg-[#1F1F1F] bg-opacity-70 rounded">
         <button
           onClick="prevEp();"
           id="prevEpisode"
-          className="flex bg-sky-900 hover:opacity-80 rounded uppercase font-semibold text-white justify-center items-center cursor-pointer outline outline-gray-500 outline-1 py-1 p-3 mr-5 my-2 transition-all duration-200"
+          className="flex bg-pink-900 hover:opacity-80 rounded uppercase font-semibold text-white justify-center items-center cursor-pointer outline outline-gray-500 outline-1 py-1 p-3 mr-5 my-2 transition-all duration-200"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -120,7 +120,7 @@ function App() {
         <button
           onClick="nextEp();"
           id="nextEpisode"
-          className="flex bg-sky-900 hover:opacity-80 rounded uppercase font-semibold text-white justify-center items-center cursor-pointer outline outline-gray-500 outline-1 py-1 p-3 my-2 transition-all duration-200"
+          className="flex bg-pink-900 hover:opacity-80 rounded uppercase font-semibold text-white justify-center items-center cursor-pointer outline outline-gray-500 outline-1 py-1 p-3 my-2 transition-all duration-200"
         >
           <p className="hidden md:block">Suivant</p>
           <svg
@@ -154,11 +154,11 @@ function App() {
           Votre navigateur ne supporte pas la lecture de cette vidéo.
         </video>
       </div>
-      <div className="flex flex-wrap justify-center items-center mt-2 bg-slate-900 bg-opacity-70 rounded">
+      <div className="flex flex-wrap justify-center items-center mt-2 bg-[#1F1F1F] bg-opacity-70 rounded">
         <button
           onClick="prevEp();"
           id="prevEpisode"
-          className="flex bg-sky-900 hover:opacity-80 rounded uppercase font-semibold text-white justify-center items-center cursor-pointer outline outline-gray-500 outline-1 py-1 p-3 mr-5 my-2 transition-all duration-200"
+          className="flex bg-pink-900 hover:opacity-80 rounded uppercase font-semibold text-white justify-center items-center cursor-pointer outline outline-gray-500 outline-1 py-1 p-3 mr-5 my-2 transition-all duration-200"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -196,7 +196,7 @@ function App() {
         <button
           onClick="nextEp();"
           id="nextEpisode"
-          className="flex bg-sky-900 hover:opacity-80 rounded uppercase font-semibold text-white justify-center items-center cursor-pointer outline outline-gray-500 outline-1 py-1 p-3 my-2 transition-all duration-200"
+          className="flex bg-pink-900 hover:opacity-80 rounded uppercase font-semibold text-white justify-center items-center cursor-pointer outline outline-gray-500 outline-1 py-1 p-3 my-2 transition-all duration-200"
         >
           <p className="hidden md:block">Suivant</p>
           <svg
