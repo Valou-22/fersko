@@ -138,7 +138,7 @@ function App() {
         </button>
       </div>
       <div className="my-6">
-        <video
+        {/* <video
           key={`${indexSeas}-${indexEp}`}
           width="640"
           height="256"
@@ -152,7 +152,15 @@ function App() {
             type="video/mp4"
           />
           Votre navigateur ne supporte pas la lecture de cette vidéo.
-        </video>
+        </video> */}
+        <iframe
+          className="w-full z-600 h-64 mt-2 mb-76 overflow-hidden overflow-x-hidden overflow-y-hidden"
+          src={seasons[indexSeas].episodes[indexEp]}
+          width="640"
+          height="256"
+          allow="autoplay; fullscreen"
+          allowFullScreen
+        ></iframe>
       </div>
       <div className="flex flex-wrap justify-center items-center mt-2 bg-[#1F1F1F] bg-opacity-70 rounded">
         <button
