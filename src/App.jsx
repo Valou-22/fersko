@@ -158,7 +158,7 @@ function App() {
           src={seasons[indexSeas].episodes[indexEp]}
           width="640"
           height="256"
-          allow="autoplay; fullscreen"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
         ></iframe>
       </div>
