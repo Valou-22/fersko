@@ -190,7 +190,7 @@ function App() {
               clipRule="evenodd"
             ></path>
           </svg>
-          <p className="hidden md:block">Precedent</p>
+          <p className="hidden md:block">Précedent</p>
         </button>
         <button
           onClick="lastEp();"
