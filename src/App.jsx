@@ -161,6 +161,16 @@ function App() {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
         ></iframe>
+        {/* <div>
+          <iframe
+            className="w-full z-600 h-64 mt-2 mb-76 overflow-hidden overflow-x-hidden overflow-y-hidden"
+            src="https://player.vimeo.com/video/1007739262"
+            allow="autoplay; fullscreen; "
+            // style="position:absolute;top:0;left:0;width:100%;height:100%;"
+            // title="2024-07-18-17-12-06"
+            allowFullScreen
+          ></iframe>
+        </div> */}
       </div>
       <div className="flex flex-wrap justify-center items-center mt-2 bg-[#1F1F1F] bg-opacity-70 rounded">
         <button
